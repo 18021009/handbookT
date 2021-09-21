@@ -1,0 +1,65 @@
+.vanhoa-title{
+  color: #136292;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "San Francisco Display";
+  text-align: center;
+  margin: 30px;
+}
+
+.component{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.column{
+  box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+.col-icon{
+  display: flex;
+  justify-content: space-around;
+  height: 20px;
+}
+  
+  
+  /* for desktop */
+
+  @media only screen and (min-width: 575px) {
+    .vanhoa-title{
+        color: #136292;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: "San Francisco Display";
+        text-align: center;
+        margin: 30px;
+      }
+      
+      .component{
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+      
+      .column{
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        border-radius: 20px;
+        background-color: #fff;
+      }
+      
+      .col-icon{
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .col-content {
+        color: #136292;
+        font-size: 31px;
+        font-weight: 500;
+        font-family: "San Francisco Display";
+      }
+}

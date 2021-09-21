@@ -1,0 +1,38 @@
+.footer{
+    display:block;
+    background-color: blue;
+}
+
+.footer .address{
+    text-align: left;
+    flex-grow: 3;
+}
+
+.footer .actor{
+    text-align:left;
+    flex-grow: 1;
+}
+p{
+    margin: 0;
+    padding: 10px
+}
+
+
+@media only screen and (min-width: 575px) {
+    .footer{
+        display:flex;
+        justify-content: space-between;
+        background-color: blue;
+    }
+
+    .footer .address{
+        text-align: left;
+        flex-grow: 3;
+    }
+    
+    .footer .actor{
+        text-align:left;
+        flex-grow: 1;
+    }
+}
+
