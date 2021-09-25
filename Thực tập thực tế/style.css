@@ -1,0 +1,22 @@
+.main-content {
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    background-color: #fff;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+    text-align: justify;
+}
+
+h2{
+    color: rgb(39, 39, 201);
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 575px) {
+    .main-content{
+        max-width: 1200px;
+        box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+        background-color: #fff;
+        margin: auto;
+    }
+}
+
